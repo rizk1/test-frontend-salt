@@ -38,7 +38,7 @@ export default function Slider() {
                         <div key={k}>
                             <h2 className="text-3xl	font-medium text-com-primary mb-4">{v.title}</h2>
                             <p className="font-medium text-[18px] mb-2">{v.subtitle}</p>
-                            <p className="text-[14px] text-[#777777]">{v.description}</p>
+                            <p className="text-[14px] text-com-gray">{v.description}</p>
                         </div>
                     </SwiperSlide>
                 ))}
